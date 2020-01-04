@@ -1,0 +1,75 @@
+body {
+    background: white;
+}
+header {
+    background-color: yellowgreen;
+    background:rgb(0, 0, 0);
+    background-image: url("images/bg2.jpeg");
+    background-size:100%;
+    background-position: center;
+    padding:20px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.features {
+    background:white;
+    color:gray;  
+    padding:20px;  
+    display:flex;
+    flex-direction: row;
+}
+.features figure {
+    
+    color: rgb(19, 12, 12);
+    text-transform: uppercase;
+    margin:auto;
+    width:100px;
+    height:20px;
+}
+.features figure img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li {
+    display:inline-block;
+    margin:0 20px 0 0;
+}
+li {
+    color:white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+a:active{
+    text-decoration: brown;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:first-child{
+    margin-left: 0;
+}
+@media screen and (max-width: 400px) {
+    .features {
+        background: red;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .features {
+        background: pink;
+    }
+}
