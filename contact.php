@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-  <!-- <script src="js/script.js">
-  </script> -->
+  <script src="js/script.js">
+  </script>
   <title>Artisan's bakery</title>
 
 
@@ -36,25 +36,25 @@
     </div>
       <center><p>We Love our Fans</p></center>
     <div class='w-50 m-auto'>
-      <form action="userinfo.php" onsubmit="return(validate());" method="post">
+      <form name="myForm" action="/userinfo.php" onsubmit="return(validate());" method="post">
         <div class="form-group">
           <label for="">Username</label>
-          <input type="text" name="user" id="" class="form-control" placeholder="">
+          <input type="text" name="User" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Email Id</label>
-          <input type="text" name="email" id="" class="form-control" placeholder="">
+          <input type="text" name="Email" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Mobile</label>
-          <input type="text" name="mobile" id="" class="form-control" placeholder="">
+          <input type="text" name="Mobile" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Comments</label>
-          <textarea name="comments" id="" class="form-control"></textarea>
+          <textarea name="Comments" id="" class="form-control"></textarea>
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <button type="submit" class="btn btn-success" action='userinfo.php'>Submit</button>
