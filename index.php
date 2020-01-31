@@ -176,22 +176,22 @@
       <form action="userinfo.php" method="post">
         <div class="form-group">
           <label for="">Username</label>
-          <input type="text" name="user" id="" class="form-control" placeholder="">
+          <input type="text" name="User" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Email Id</label>
-          <input type="text" name="email" id="" class="form-control" placeholder="">
+          <input type="text" name="Email" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Mobile</label>
-          <input type="text" name="mobile" id="" class="form-control" placeholder="">
+          <input type="text" name="Mobile" id="" class="form-control" placeholder="">
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <div class="form-group">
           <label for="">Comments</label>
-          <textarea name="comments" id="" class="form-control"></textarea>
+          <textarea name="Comments" id="" class="form-control"></textarea>
           <!-- <small id="helpId" class="text-muted">Help text</small> -->
         </div>
         <button type="submit" class="btn btn-success" action='userinfo.php'>Submit</button>

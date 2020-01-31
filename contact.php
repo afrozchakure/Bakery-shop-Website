@@ -36,7 +36,7 @@
     </div>
       <center><p>We Love our Fans</p></center>
     <div class='w-50 m-auto'>
-      <form name="myForm" action="/userinfo.php" onsubmit="return(validate());" method="post">
+      <form name="myForm" action="userinfo.php" onsubmit="return(validate());" method="post">
         <div class="form-group">
           <label for="">Username</label>
           <input type="text" name="User" id="" class="form-control" placeholder="">

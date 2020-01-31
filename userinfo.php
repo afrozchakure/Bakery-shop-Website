@@ -11,12 +11,12 @@ else
 }
 mysqli_select_db($con, 'bakeryuserdata');
 
-$user = $_POST['user'];
-$email = $_POST['email'];
-$mobile = $_POST['mobile'];  // Making a mobile variable
-$comments = $_POST['comments'];
+$user = $_POST['User'];
+$email = $_POST['Email'];
+$mobile = $_POST['Mobile'];  // Making a mobile variable
+$comments = $_POST['Comments'];
 
-$query = "Insert into userinfodata (user, email, mobile, comments) 
+$query = "Insert into userinfodata (User, Email, Mobile, Comments) 
 values ('$user', '$email', '$mobile', '$comments');";
 
 mysqli_query($con, $query);  # Executing Query
